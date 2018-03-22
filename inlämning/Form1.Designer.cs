@@ -67,14 +67,15 @@
             this.Boston.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             this.Boston.Legends.Add(legend1);
-            this.Boston.Location = new System.Drawing.Point(0, 59);
+            this.Boston.Location = new System.Drawing.Point(0, 38);
+            this.Boston.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Boston.Name = "Boston";
             this.Boston.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
             series1.ChartArea = "ChartArea1";
             series1.Legend = "Legend1";
             series1.Name = "Price";
             this.Boston.Series.Add(series1);
-            this.Boston.Size = new System.Drawing.Size(374, 390);
+            this.Boston.Size = new System.Drawing.Size(249, 253);
             this.Boston.TabIndex = 0;
             this.Boston.Text = "chart1";
             // 
@@ -84,14 +85,15 @@
             this.Barcelona.ChartAreas.Add(chartArea2);
             legend2.Name = "Legend1";
             this.Barcelona.Legends.Add(legend2);
-            this.Barcelona.Location = new System.Drawing.Point(413, 59);
+            this.Barcelona.Location = new System.Drawing.Point(275, 38);
+            this.Barcelona.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Barcelona.Name = "Barcelona";
             this.Barcelona.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
             series2.ChartArea = "ChartArea1";
             series2.Legend = "Legend1";
             series2.Name = "Price";
             this.Barcelona.Series.Add(series2);
-            this.Barcelona.Size = new System.Drawing.Size(382, 390);
+            this.Barcelona.Size = new System.Drawing.Size(255, 253);
             this.Barcelona.TabIndex = 1;
             this.Barcelona.Text = "chart2";
             // 
@@ -101,13 +103,14 @@
             this.Amsterdam.ChartAreas.Add(chartArea3);
             legend3.Name = "Legend1";
             this.Amsterdam.Legends.Add(legend3);
-            this.Amsterdam.Location = new System.Drawing.Point(837, 59);
+            this.Amsterdam.Location = new System.Drawing.Point(558, 38);
+            this.Amsterdam.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Amsterdam.Name = "Amsterdam";
             series3.ChartArea = "ChartArea1";
             series3.Legend = "Legend1";
             series3.Name = "Price";
             this.Amsterdam.Series.Add(series3);
-            this.Amsterdam.Size = new System.Drawing.Size(382, 390);
+            this.Amsterdam.Size = new System.Drawing.Size(255, 253);
             this.Amsterdam.TabIndex = 2;
             this.Amsterdam.Text = "chart3";
             // 
@@ -117,14 +120,15 @@
             this.Boston2.ChartAreas.Add(chartArea4);
             legend4.Name = "Legend1";
             this.Boston2.Legends.Add(legend4);
-            this.Boston2.Location = new System.Drawing.Point(0, 465);
+            this.Boston2.Location = new System.Drawing.Point(0, 302);
+            this.Boston2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Boston2.Name = "Boston2";
             this.Boston2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
             series4.ChartArea = "ChartArea1";
             series4.Legend = "Legend1";
             series4.Name = "Overall Satesfaction";
             this.Boston2.Series.Add(series4);
-            this.Boston2.Size = new System.Drawing.Size(374, 390);
+            this.Boston2.Size = new System.Drawing.Size(249, 253);
             this.Boston2.TabIndex = 3;
             this.Boston2.Text = "chart4";
             this.Boston2.Click += new System.EventHandler(this.Boston2_Click);
@@ -135,14 +139,15 @@
             this.Barcelona2.ChartAreas.Add(chartArea5);
             legend5.Name = "Legend1";
             this.Barcelona2.Legends.Add(legend5);
-            this.Barcelona2.Location = new System.Drawing.Point(413, 465);
+            this.Barcelona2.Location = new System.Drawing.Point(275, 302);
+            this.Barcelona2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Barcelona2.Name = "Barcelona2";
             this.Barcelona2.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.EarthTones;
             series5.ChartArea = "ChartArea1";
             series5.Legend = "Legend1";
             series5.Name = "Overall Satesfaction";
             this.Barcelona2.Series.Add(series5);
-            this.Barcelona2.Size = new System.Drawing.Size(382, 390);
+            this.Barcelona2.Size = new System.Drawing.Size(255, 253);
             this.Barcelona2.TabIndex = 4;
             this.Barcelona2.Text = "chart5";
             // 
@@ -152,27 +157,29 @@
             this.Amsterdam2.ChartAreas.Add(chartArea6);
             legend6.Name = "Legend1";
             this.Amsterdam2.Legends.Add(legend6);
-            this.Amsterdam2.Location = new System.Drawing.Point(837, 465);
+            this.Amsterdam2.Location = new System.Drawing.Point(558, 302);
+            this.Amsterdam2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Amsterdam2.Name = "Amsterdam2";
             series6.ChartArea = "ChartArea1";
             series6.Legend = "Legend1";
             series6.Name = "Overall Satesfaction";
             this.Amsterdam2.Series.Add(series6);
-            this.Amsterdam2.Size = new System.Drawing.Size(382, 390);
+            this.Amsterdam2.Size = new System.Drawing.Size(255, 253);
             this.Amsterdam2.TabIndex = 5;
             this.Amsterdam2.Text = "chart6";
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1353, 834);
+            this.ClientSize = new System.Drawing.Size(902, 542);
             this.Controls.Add(this.Amsterdam2);
             this.Controls.Add(this.Barcelona2);
             this.Controls.Add(this.Boston2);
             this.Controls.Add(this.Amsterdam);
             this.Controls.Add(this.Barcelona);
             this.Controls.Add(this.Boston);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
