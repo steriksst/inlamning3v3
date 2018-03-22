@@ -192,7 +192,7 @@ namespace inlämning
                         };
                         break;
                     default:
-                        break;
+                        break; 
                 }
             }
 
