@@ -18,7 +18,7 @@ namespace inlämning
             Accommodations = accommodations;
 
 
-            Average_cost_hotel = accommodations.Average(a => a.Price);      //LINQ. Fattar ej "a funktionen". 
+            Average_cost_hotel = accommodations.Average(a => a.Price);      //LINQ. Fattar ej "a funktionen". Stina: Jag fattar inte heller det.
 
             antal_accommodations = accommodations.Count();
 
@@ -35,3 +35,4 @@ namespace inlämning
 
     }
 }
+//Stina: Bra och enl. krav ! Strukturerat.
