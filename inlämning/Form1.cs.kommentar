@@ -72,7 +72,7 @@ namespace inlämning
                     {
                         Reviews = (int)myReader["reviews"];                            //Genom att sätta (int) säger vi till C# att värdet som ska in från SQL är en int!
                         Room_id = (int)myReader["Room_id"];
-                        if (myReader["borough"] is String)
+                        if (myReader["borough"] is String)      //Stina: Denna lösning var snygg, för att få bort Null
                         {
                             Borough = (string)myReader["borough"];
                         }
@@ -230,7 +230,7 @@ namespace inlämning
             Amsterdam2.ChartAreas[0].AxisY.Title = ("Overall Satesfaction");
         }
 
-
+        //Stina: Snyggt! Alla tekniska krav mötta, tror inget kan förbättras.
         //Kom med för att jag klickade på charten, kan ej ta bort då påverkas koden av någon anledning. 
         private void Boston2_Click(object sender, EventArgs e)
         {
