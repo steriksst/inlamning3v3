@@ -29,3 +29,4 @@ Inget märkvärdigt har lämnats utanför i dessa tre filer då det som är vikt
 Alla klasser är i separata filer samt uppladdad på personlig github. Datapunkterna läses in som objekt i respektive lista i City objekten och plottarna ritas upp genom hämtad data från dessa objekt där alla accommodation-objekt finns lagrade i en lista.
 Jag tycker arbetet är bra gjort med fin struktur på koden och bra resultat i slutändan. För att vara en ganska stor samt svår uppgift ser jag inget Momina kan göra bättre i sitt arbete. */
 }
+//Stina: Håller med ovanstående, allt verkar bra och enl. krav.
